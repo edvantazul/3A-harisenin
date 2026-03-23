@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#FFFCE9] font-sans">
+
+  <nav class="w-full bg-white py-4 px-6 lg:px-20 flex justify-between items-center shadow-sm sticky top-0 z-50">
+    <div class="flex items-center">
+      <img src="./Logo2.svg" alt="Logo Videobelajar" class="h-8">
+    </div>
+    
+    <div class="flex items-center gap-6">
+      <a href="#" class="hidden md:block text-sm font-medium text-gray-600 hover:text-orange-500">Kategori</a>
+      <div class="w-10 h-10 rounded-full bg-orange-100 border-2 border-orange-400 overflow-hidden cursor-pointer">
+        <img src="https://ui-avatars.com/api/?name=Evan+Legi&background=random" alt="User Profil">
+      </div>
+    </div>
+  </nav>
+
+  <section class="px-6 lg:px-20 py-8">
+    <div class="relative w-full min-h-[400px] rounded-2xl overflow-hidden flex items-center justify-center text-center p-8">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070" class="absolute inset-0 w-full h-full object-cover" alt="Hero Background">
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div class="relative z-10 max-w-3xl text-white">
+        <h1 class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+            Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video Interaktif!
+        </h1>
+        <p class="text-sm md:text-lg text-gray-300 mb-8">
+            Temukan ilmu baru yang menarik dan mendalam melalui koleksi video pembelajaran berkualitas tinggi. Anda juga dapat berpartisipasi dalam latihan interaktif.
+        </p>
+        <button class="bg-[#3ECF4C] hover:bg-green-600 text-white px-8 py-3 rounded-lg font-bold transition-all cursor-pointer">
+          Temukan Video Course untuk Dipelajari
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="px-6 lg:px-20 py-12">
+    <div class="mb-10">
+      <h2 class="text-3xl font-bold text-gray-800">Koleksi Video Pembelajaran Unggulan</h2>
+      <p class="text-gray-500 mt-2">Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</p>
+    </div>
+
+    <div class="flex gap-8 border-b border-gray-200 mb-10 overflow-x-auto whitespace-nowrap scrollbar-hide">
+      <button class="text-orange-500 border-b-2 border-orange-500 font-bold pb-4">Semua Kelas</button>
+      <button class="text-gray-500 hover:text-orange-500 pb-4 transition-all">Pemasaran</button>
+      <button class="text-gray-500 hover:text-orange-500 pb-4 transition-all">Desain</button>
+      <button class="text-gray-500 hover:text-orange-500 pb-4 transition-all">Pengembangan Diri</button>
+      <button class="text-gray-500 hover:text-orange-500 pb-4 transition-all">Bisnis</button>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <script>
+        // Script sederhana untuk menduplikasi kartu 9 kali agar persis desain
+        const gridContainer = document.querySelector('.grid');
+        for (let i = 1; i <= 9; i++) {
+          gridContainer.innerHTML += `
+            <div class="bg-white rounded-xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-xl transition-all group cursor-pointer">
+              <div class="relative overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011" class="w-full h-48 object-cover group-hover:scale-105 transition-all duration-300" alt="Course">
+              </div>
+              <div class="p-6">
+                <h3 class="font-bold text-xl text-gray-800 mb-2">Big 4 Auditor Financial Analyst</h3>
+                <p class="text-sm text-gray-500 line-clamp-2 mb-4">Mulai transformasi dengan instruktur profesional, harga terjangkau, dan kurikulum relevan.</p>
+                
+                <div class="flex items-center gap-3 mb-6">
+                  <img src="https://ui-avatars.com/api/?name=Jenna+Ortega&background=random" class="w-10 h-10 rounded-full" alt="Mentor">
+                  <div>
+                    <p class="text-sm font-bold text-gray-800">Jenna Ortega</p>
+                    <p class="text-[11px] text-gray-400 font-medium">Senior Accountant di <span class="text-gray-600 font-bold">Gojek</span></p>
+                  </div>
+                </div>
+
+                <div class="flex items-center justify-between border-t border-gray-50 pt-4">
+                  <div class="flex items-center gap-1">
+                    <span class="text-orange-400 font-bold">⭐⭐⭐⭐⭐</span>
+                    <span class="text-xs text-gray-400 font-medium">3.5 (86)</span>
+                  </div>
+                  <p class="text-[#3ECF4C] font-extrabold text-xl">Rp 300K</p>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+      </script>
+
+    </div>
+  </section>
+
+  <section class="px-6 lg:px-20 py-12">
+    <div class="relative rounded-2xl overflow-hidden py-16 px-8 text-center text-white bg-slate-900">
+        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069" class="absolute inset-0 w-full h-full object-cover opacity-20" alt="">
+        
+        <div class="relative z-10 max-w-xl mx-auto">
+            <p class="text-xs font-bold uppercase tracking-[0.2em] mb-3 opacity-70">Newsletter</p>
+            <h2 class="text-3xl font-bold mb-4">Mau Belajar Lebih Banyak?</h2>
+            <p class="text-gray-300 text-sm mb-8">Daftarkan dirimu untuk mendapatkan informasi terbaru dan penawaran spesial.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-3 bg-white p-1.5 rounded-xl shadow-lg">
+                <input type="email" placeholder="Masukkan Emailmu" class="flex-1 px-4 py-3 text-gray-800 focus:outline-none">
+                <button class="bg-[#FFC400] hover:bg-yellow-500 text-gray-900 font-bold px-8 py-3 rounded-lg transition-all cursor-pointer">Subscribe</button>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-gray-100 pt-20 pb-10 px-6 lg:px-20">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 text-gray-600">
+      
+      <div>
+        <img src="./Logo2.svg" alt="Logo" class="h-8 mb-6">
+        <p class="font-bold text-gray-800 mb-4 text-sm">Gali Potensi Anda Melalui Pembelajaran Video di videobelajar!</p>
+        <p class="text-sm leading-relaxed">Jl. Usman Effendi No. 50 Lowokwaru, Malang<br>+62-877-7123-1234</p>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-gray-800 mb-6">Kategori</h4>
+        <ul class="text-sm space-y-4">
+          <li><a href="#" class="hover:text-green-500 transition">Digital & Teknologi</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">Pemasaran</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">Manajemen Bisnis</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">Desain</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-gray-800 mb-6">Perusahaan</h4>
+        <ul class="text-sm space-y-4">
+          <li><a href="#" class="hover:text-green-500 transition">Tentang Kami</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">FAQ</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">Kebijakan Privasi</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-bold text-gray-800 mb-6">Komunitas</h4>
+        <ul class="text-sm space-y-4">
+          <li><a href="#" class="hover:text-green-500 transition">Tips Sukses</a></li>
+          <li><a href="#" class="hover:text-green-500 transition">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-100 gap-4">
+      <p class="text-xs text-gray-400">@2026 Videobelajar All Rights Reserved.</p>
+      <div class="flex gap-4">
+          <div class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-xs hover:bg-green-100 transition cursor-pointer">FB</div>
+          <div class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-xs hover:bg-green-100 transition cursor-pointer">IG</div>
+          <div class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center text-xs hover:bg-green-100 transition cursor-pointer">TW</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
